@@ -317,14 +317,14 @@ function Framework() {
           <dd className="text-zinc-900 dark:text-zinc-100">Framework</dd>
         </dl>
       </h2>
-      <div className="grid grid-cols-4 pl-14 mt-6 gap-5">
+      <div className="grid grid-cols-4 mt-6 gap-5">
         {framework.map((role, roleIndex) => (
           <li key={roleIndex} className="flex">
-            <div className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150 p-4'>
+            <div className=' transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150 p-4'>
                 <Image
                   src={role.image}
-                  width={100}
-                  height={100}
+                  width={120}
+                  height={120}
                   alt=" "
                 />
                 </div>
