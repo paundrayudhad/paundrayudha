@@ -323,8 +323,8 @@ function Framework() {
             <div className=' transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150 p-4 lg:pl-14'>
                 <Image
                   src={role.image}
-                  width={120}
-                  height={120}
+                  width={100}
+                  height={100}
                   alt=" "
                 />
                 </div>
