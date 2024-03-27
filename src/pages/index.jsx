@@ -266,7 +266,7 @@ function Skills() {
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
         <dl className="ml-3">
-          <dd className="text-zinc-900 dark:text-zinc-100">MySkills</dd>
+          <dd className="text-zinc-900 dark:text-zinc-100">My Skills</dd>
         </dl>
       </h2>
       <ol className="mt-6 space-y-4">
