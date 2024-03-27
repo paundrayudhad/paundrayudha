@@ -320,7 +320,7 @@ function Framework() {
       <div className="grid grid-cols-4 mt-6 gap-5">
         {framework.map((role, roleIndex) => (
           <li key={roleIndex} className="flex">
-            <div className=' transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150 p-4'>
+            <div className=' transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-150 p-4 lg:pl-14'>
                 <Image
                   src={role.image}
                   width={120}
