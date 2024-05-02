@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import { ArSmm } from '@/images/project/ar-smm.jpg'
-import { EdugamePhoto } from '@/images/project/edugame.jpg'
+import arSmm from '@/images/project/ar-smm.jpg'
+import edugamePhoto from '@/images/project/edugame.jpg'
 
 const projects = [
   {
@@ -12,13 +12,13 @@ const projects = [
     description:
       'Website Edugame yang digunakan dengan Articulate Storyline.',
     link: { href: 'https://github.com/paundrayudhad/edugame', label: 'github.com' },
-    image: EdugamePhoto,
+    image: edugamePhoto,
   },
   {
     name: 'AR-SMM',
     description: 'Website Social Media Marketing yang menyediakan layanan followers, like, dan lain lain',
     link: { href: 'https://ar-smm.my.id', label: 'ar-smm.my.id' },
-    image: ArSmm,
+    image: arSmm,
   },
 ]
 
