@@ -17,7 +17,7 @@ const projects = [
   {
     name: 'AR-SMM',
     description: 'Website Social Media Marketing yang menyediakan layanan followers, like, dan lain lain',
-    linkc: { href: 'https://ar-smm.my.id/', label: 'ar-smm.my.id'},
+    link: { href: 'https://ar-smm.my.id', label: 'ar-smm.my.id' },
     image: ArSmm,
   },
 ]
