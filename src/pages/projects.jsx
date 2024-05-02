@@ -3,10 +3,8 @@ import Image from 'next/image'
 
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
-import {
-  EdugamePhoto, 
-  ArSmm, 
-} from '@/images/project'
+import { ArSmm } from '@/images/project/ar-smm.jpg'
+import { EdugamePhoto } from '@/images/project/edugame.jpg'
 
 const projects = [
   {
