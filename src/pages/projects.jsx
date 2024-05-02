@@ -13,6 +13,12 @@ const projects = [
     link: { href: 'https://github.com/paundrayudhad/edugame', label: 'github.com' },
     image: EdugamePhoto,
   },
+  {
+    name: 'AR-SMM',
+    description: 'Website Social Media Marketing yang menyediakan layanan followers, like, dan lain lain',
+    linkc: { href: 'https://ar-smm.my.id/', label: 'ar-smm.my.id'},
+    image: ar-smm,
+  },
 ]
 
 function LinkIcon(props) {
