@@ -5,7 +5,7 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import arSmm from '@/images/project/ar-smm.jpg'
 import edugamePhoto from '@/images/project/edugame.jpg'
-import kompak from '@/images/project/kompak.jpg'
+import kompak from '@/images/project/kompak.png'
 
 const projects = [
   {
