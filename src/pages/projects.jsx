@@ -5,6 +5,7 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import arSmm from '@/images/project/ar-smm.jpg'
 import edugamePhoto from '@/images/project/edugame.jpg'
+import kompak from '@/images/project/kompak.jpg'
 
 const projects = [
   {
@@ -19,6 +20,12 @@ const projects = [
     description: 'Website Social Media Marketing yang menyediakan layanan followers, like, dan lain lain',
     link: { href: 'https://ar-smm.my.id', label: 'ar-smm.my.id' },
     image: arSmm,
+  },
+  {
+    name: 'Kompak News',
+    description: 'Website Portal Berita yang dibuat dengan menggunakan PHP Native dan MYSQL',
+    link: { href: 'https://github.com/paundrayudhad/kompaknews', label: 'github.com' },
+    image: kompak,
   },
 ]
 
