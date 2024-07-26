@@ -9,23 +9,11 @@ import kompak from '@/images/project/kompak.png'
 
 const projects = [
   {
-    name: 'Edugame',
+    name: 'XXXX',
     description:
-      'Website Edugame yang digunakan dengan Articulate Storyline.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo lectus, gravida et dolor a, pretium mollis justo. Suspendisse odio ligula, congue sit amet dignissim quis, semper vitae sem.',
     link: { href: 'https://github.com/paundrayudhad/edugame', label: 'github.com' },
-    image: edugamePhoto,
-  },
-  {
-    name: 'AR-SMM',
-    description: 'Website Social Media Marketing yang menyediakan layanan followers, like, dan lain lain',
-    link: { href: 'https://ar-smm.my.id', label: 'ar-smm.my.id' },
-    image: arSmm,
-  },
-  {
-    name: 'Kompak News',
-    description: 'Website Portal Berita yang dibuat dengan menggunakan PHP Native dan MYSQL',
-    link: { href: 'https://github.com/paundrayudhad/kompaknews', label: 'github.com' },
-    image: kompak,
+    image: 'https://via.placeholder.com/400x200.png?text=Javascript',
   },
 ]
 
@@ -44,15 +32,15 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Paundra Yudha Dharmawan</title>
+        <title>Achievements - Paundra Yudha Dharmawan</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
         />
       </Head>
       <SimpleLayout
-        title="My Projects."
-        intro="Beberapa project yang telah saya  buat dan bisa anda lihat dibawah"
+        title="My Achivements"
+        intro="Beberapa Pencapaian yang saya dapatkan"
       >
         <ul
           role="list"
