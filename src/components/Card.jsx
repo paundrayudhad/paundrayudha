@@ -38,12 +38,14 @@ Card.Logo = function CardLogo({ src, alt, ...props }) {
   )
 }
 
-Card.Image = function CardImage({ src, alt, ...props }) {
+Card.Image = function CardImage({ src, alt, width = 1280, height = 720 , ...props }) {
   return (
     <Image
       src={src}
       alt={alt}
-      className="relative z-10 h-40 w-full rounded-lg object-cover object-center"
+      width={width}
+      height={height}
+      className="relative z-10 h-full w-full rounded-lg object-cover object-center"
       {...props}
     />
   )
