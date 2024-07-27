@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import dynamic from 'next/dynamic';
-const PdfViewer = dynamic(() => import('@/components/PdfViewer'), { ssr: false });
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 
