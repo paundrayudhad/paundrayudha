@@ -367,7 +367,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 max-w-2xl">
-            Murid SMKN 6 Surakarta jurusan Rekayasa Perangkat Lunak. Memiliki Skills dan konsistensi di bidang Software Development dan Website Development. Andal melakukan pengembangan, pengujian, pemeliharaan perangkat lunak. Kini sedang mencari pengalaman magang, khususnya di bidang  Website Development untuk membuka gerbang karier di sektor IT.
+           Siswa SMKN 6 Surakarta dengan jurusan Rekayasa Perangkat Lunak, saya memiliki keahlian dan semangat dalam pengembangan web. Saya terampil dalam merancang, mengembangkan, dan memelihara berbagai jenis website. Dengan pengalaman dalam HTML, CSS, JavaScript, dan berbagai framework web, saya siap untuk mengambil tantangan dalam dunia pengembangan web.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
