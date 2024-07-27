@@ -34,3 +34,6 @@ yarn-error.log*
 # generated files
 /public/rss/
 src/pages/index.jsx
+
+# Bun
+bun.lockb
