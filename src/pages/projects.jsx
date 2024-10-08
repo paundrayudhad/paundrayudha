@@ -6,6 +6,7 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import arSmm from '@/images/project/ar-smm.jpg'
 import edugamePhoto from '@/images/project/edugame.jpg'
 import kompak from '@/images/project/kompak.png'
+import ninetynite from '@/images/project/ninetynite.png'
 
 const projects = [
   {
@@ -26,6 +27,12 @@ const projects = [
     description: 'Website Portal Berita yang dibuat dengan menggunakan PHP Native dan MYSQL',
     link: { href: 'https://github.com/paundrayudhad/kompaknews', label: 'github.com' },
     image: kompak,
+  },
+  {
+    name: 'Ninetynite',
+    description: 'Sebuah Landing Page untuk Brand Ninetynite yang dibuat menggunakan NextJS',
+    link: { href: 'https://ninetynite.vercel.app', label: 'ninetynite.vercel.app' },
+    image: ninetynite,
   },
 ]
 
