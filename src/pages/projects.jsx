@@ -7,6 +7,7 @@ import arSmm from '@/images/project/ar-smm.jpg'
 import edugamePhoto from '@/images/project/edugame.jpg'
 import kompak from '@/images/project/kompak.png'
 import ninetynite from '@/images/project/ninetynite.png'
+import songfess from '@/images/project/songfess.png'
 
 const projects = [
   {
