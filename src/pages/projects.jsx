@@ -34,6 +34,12 @@ const projects = [
     link: { href: 'https://ninetynite.vercel.app', label: 'ninetynite.vercel.app' },
     image: ninetynite,
   },
+  {
+    name: 'Menfess/Songfess',
+    description: 'Sebuah website untuk mengirim Anonymous Message yang dibuat menggunakan Frontend NextJS dan Backend PHP + MySQL',
+    link: { href: 'https://menfessrpl.vercel.app/', label: 'menfessrpl.vercel.app' },
+    image: songfess,
+  },
 ]
 
 function LinkIcon(props) {
