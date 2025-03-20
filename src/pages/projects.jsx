@@ -8,6 +8,7 @@ import edugamePhoto from '@/images/project/edugame.jpg'
 import kompak from '@/images/project/kompak.png'
 import ninetynite from '@/images/project/ninetynite.png'
 import songfess from '@/images/project/songfess.png'
+import laundry from '@/images/project/laundry.png'
 
 const projects = [
   {
@@ -40,6 +41,12 @@ const projects = [
     description: 'Sebuah website untuk mengirim Anonymous Message yang dibuat menggunakan Frontend NextJS dan Backend PHP + MySQL',
     link: { href: 'https://menfessrpl.vercel.app/', label: 'menfessrpl.vercel.app' },
     image: songfess,
+  },
+  {
+    name: 'Sistem Manajemen Laundry',
+    description: 'Sistem Manajemen Laundry ini dirancang untuk membantu operasional laundry dengan fitur manajemen cabang, layanan, pengguna, transaksi, dan laporan. Dibuat dengan Techstack Laravel 11 + MySQL + Blade Template',
+    link: { href: '#', label: '' },
+    image: laundry,
   },
 ]
 
