@@ -5,6 +5,7 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 const achievement = [
     { src: '/sertif/gamelab1.png', title: 'Sertifikat Kepesertaan Gamelab', link:'/sertif/gamelab1.pdf' },
     { src: '/sertif/pitcomfest2024.png', title: 'Pimpel X Pitcomfest', link:'/sertif/gamelab1.pdf' },
+    { src: '/sertif/lks2025.png', title: 'Juara 2 LKS Tingkat Kota Surakarta', link:'/sertif/lks2025.pdf' },
 ];
 
 export default function Achievement() {
