@@ -144,7 +144,7 @@ function SocialLink({ icon: Icon, ...props }) {
 function DownloadCV() {
   return (
     <Button
-      href="/paundrayudha.pdf"
+      href="/ats-paundra.pdf"
       target="_blank"
       download
       variant="secondary"

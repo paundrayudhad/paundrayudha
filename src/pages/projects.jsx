@@ -9,6 +9,7 @@ import kompak from '@/images/project/kompak.png'
 import ninetynite from '@/images/project/ninetynite.png'
 import songfess from '@/images/project/songfess.png'
 import laundry from '@/images/project/laundry.png'
+import wahyuconvert from '@/images/project/wahyuconvert.png'
 
 const projects = [
   {
@@ -47,6 +48,12 @@ const projects = [
     description: 'Sistem Manajemen Laundry ini dirancang untuk membantu operasional laundry dengan fitur manajemen cabang, layanan, pengguna, transaksi, dan laporan. Dibuat dengan Techstack Laravel 11 + MySQL + Blade Template',
     link: { href: '#', label: '' },
     image: laundry,
+  },
+  {
+    name: 'Wahyu Convert',
+    description: 'Membuat Website berupa landing page untuk website convert pulsa ke E-Money',
+    link: { href: 'https://wahyuconvert.store/', label: 'wahyuconvert.store' },
+    image: wahyuconvert,
   },
 ]
 
