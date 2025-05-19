@@ -10,6 +10,8 @@ import ninetynite from '@/images/project/ninetynite.png'
 import songfess from '@/images/project/songfess.png'
 import laundry from '@/images/project/laundry.png'
 import wahyuconvert from '@/images/project/wahyuconvert.png'
+import heptasyn from '@/images/project/heptasyn.png'
+import ptmeep from '@/images/project/ptmeep.png'
 
 const projects = [
   {
@@ -54,6 +56,18 @@ const projects = [
     description: 'Membuat Website berupa landing page untuk website convert pulsa ke E-Money',
     link: { href: 'https://wahyuconvert.store/', label: 'wahyuconvert.store' },
     image: wahyuconvert,
+  },
+  {
+    name: 'Prom  Night Ticketing Website',
+    description: 'Website untuk Ticketing Prom Night Heptasyn dengan menggunakan NIS dan Nama Siswa untuk mengamankan agar tidak ada siswa dari sekolah lain',
+    link: { href: 'https://heptasyn.my.id', label: 'heptasyn.my.id' },
+    image: heptasyn,
+  },
+  {
+    name: 'Company Profile Agriculture',
+    description: 'Website Company Profile PT. Mataram Energi Eksplorasi Produksi (MEEP) adalah perusahaan yangbergerak di bidang agrikultur dan lingkungan dibuat dengan',
+    link: { href: 'https://ptmeep.com/', label: 'ptmeep.com' },
+    image: ptmeep,
   },
 ]
 
